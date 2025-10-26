@@ -1,5 +1,7 @@
 library(tidyverse)
 library(beepr)
+#kan jeg se denne teksten
+
 
 alarm <- function(alarm_time,alarm_min){
   nå_min <- format(Sys.time(),"%M") %>% as.numeric() %>%  print()
